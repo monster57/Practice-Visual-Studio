@@ -10,7 +10,7 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The first App in begining c# Programming!");
+            Console.WriteLine("This is the first app ");
             Console.ReadKey();
         }
     }

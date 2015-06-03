@@ -10,6 +10,9 @@ namespace PartialClassSpike
     {
         static void Main(string[] args)
         {
+               Employee employee = new Employee(){employeeId = 1 , name = "E1" , Salary = 100000};
+            Console.WriteLine(employee.ToString());
+            Console.ReadLine();
         }
     }
 }

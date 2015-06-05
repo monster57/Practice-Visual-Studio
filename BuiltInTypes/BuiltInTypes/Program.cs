@@ -16,7 +16,12 @@ namespace BuiltInTypes
             Console.WriteLine("Max = {0}", int.MaxValue);
             double d = 123.1231241;
             Console.WriteLine("decimal number = "+d );
+            string name = "\"Surajit\nBarman\"";
+            Console.WriteLine(name);
+            string sequenceExample = @"C:\\program\\hello";
+            Console.WriteLine(sequenceExample);
             Console.ReadLine();
+
         }
     }
 }

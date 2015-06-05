@@ -10,6 +10,13 @@ namespace BuiltInTypes
     {
         static void Main(string[] args)
         {
+            bool b = true;
+            Console.WriteLine("this is a boolean value "+b);
+            Console.WriteLine("Min = {0}", int.MinValue);
+            Console.WriteLine("Max = {0}", int.MaxValue);
+            double d = 123.1231241;
+            Console.WriteLine("decimal number = "+d );
+            Console.ReadLine();
         }
     }
 }
